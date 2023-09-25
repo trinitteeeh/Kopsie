@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/productdetail.css" />
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar">
+				<div class="navbar-menu">
+					<div class="navbar-item">
+						<a href=""
+							><img src="../assets/icons/logo.png" class="navbar-logo" alt=""
+						/></a>
+					</div>
+					<div class="navbar-item">
+						<a href="index.html" class="navbar-link">Home</a>
+					</div>
+					<div class="navbar-item">
+						<a href="aboutus.html" class="navbar-link">About Us</a>
+					</div>
+					<div class="navbar-item">
+						<a href="product.html" class="navbar-link">Products</a>
+					</div>
+					<div class="navbar-item">
+						<a href="location.html" class="navbar-link">Location</a>
+					</div>
+					<div class="navbar-item">
+						<a href="registration.html" class="navbar-link" id="register-link"
+							>Register</a
+						>
+					</div>
+					<div class="navbar-item">
+						<a href="cart.html" class="navbar-cart-link"
+							><img src="../assets/icons/cart.png" alt="" />Cart</a
+						>
+					</div>
+				</div>
+			</nav>
+			<div class="header">
+				<marquee behavior="" direction=""
+					>10% off at happy hour from 2 PM to 5 PM every Wednesday and
+					Friday</marquee
+				>
+			</div>
+			<div class="product-display-container">
+                <div class="main-product-image-container">
+                    <img id="product-image" src="" alt="">
+                </div>
+                <div class="main-product-description-container">
+                    <!-- <form> -->
+                        <div class="title-container">
+                            <h1 id="product-title" class="main-product-title">Cookie Glass Kopsie</h1>
+                            <p id="product-price" class="main-product-price">IDR 45.000</p>
+                        </div>
+                        <div class="size-container">
+                            <select class="size-dropdown" id="size-dropdown">
+                                <option value="smallOption">Small</option>
+                                <option value="mediumOption">Medium</option>
+                                <option value="largeOption">Large</option>
+                            </select>
+                            <input class="quantity-spinner" type="number" min="0" max="100" step="1" placeholder="Quantity" id="quantity-spinner">
+                        </div>
+                        <div class="notes-container">
+                            <h4 class="notes-title">Notes</h4>
+                            <input type="text" name="" id="notes">
+                        </div>
+                        <div class="main-product-button-container">
+							<button id="add-btn">Add to Cart</button>
+                        </div>
+                    <!-- </form> -->
+                </div>
+            </div>
+            <div class="detail-container">
+                <div class="button-container">
+                    <button id="detail-btn">Detail</button>
+                    <button id="storage-btn">Storage</button>
+                </div>
+                <div class="description-container">
+                    <p id="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nisi amet cum, facilis voluptatibus nihil culpa. Numquam aspernatur laudantium dignissimos fugiat amet, voluptatum expedita tenetur minus quo accusamus consectetur quod?</p>
+                </div>
+            </div>
+            
+            <h1 class="recommendation-title">Maybe You Like</h1>
+            <div class="product-display-content">
+		</div>
+		<footer>
+			<div class="upper-part">
+				<div class="left">
+					<img src="../assets/icons/logo halal.png" alt="Halal Logo" class="halal-logo"/>
+					<p>Hak Cipta © 2023 <span>PT Kopsie Indonesia</span></p>
+					<br />
+					<div class="icon">
+						<a href="https://instagram.com" target="_blank"><img src="../assets/icons/ig.png" alt="Instagram" width="30px"/></a>
+						<a href="https://tiktok.com" target="_blank"><img src="../assets/icons/tiktok.png" alt="TikTok" width="30px"/></a>
+						<a href="https://linkedin.com" target="_blank"><img src="../assets/icons/linkedin.png" alt="LinkedIn" width="30px"/></a>
+					</div>
+				</div>
+				<div class="right">
+					<p class="loc">Our Location</p>
+					<br />
+					<p>Plaza Indonesia, DKI Jakarta, Indonesia</p>
+					<br />
+					<a href="https://goo.gl/maps/CWVAZUvQNYb8azSM9" target="_blank"><img src="../assets/icons/map.png" alt="Kopsie Location" width="75%"/></a>
+				</div>
+			</div>
+			<div class="lower-part">
+				<p class="contact">
+					Contact Us 0812-1901-830
+					<a href="https://whatsapp.com" target="_blank"><img src="../assets/icons/WhatsApp.png" alt="" width="18px"/></a>WhatsApp Only
+				</p>
+			</div>
+		</footer>
+		<script src="../script/productdetail.js"></script>
+	</body>
+</html>

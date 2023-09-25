@@ -1,0 +1,225 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+button{
+	transition: transform 0.3s ease-in-out;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover{
+	transform: translateY(-2px);
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.first-page {
+	display: flex;
+	flex-direction: column;
+	max-height: 100%;
+}
+
+.first-content {
+	flex: 1;
+	overflow: hidden;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.image-container,
+img {
+	box-sizing: border-box;
+}
+
+.image-container {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background-color: aqua;
+}
+
+.image-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.navbar {
+	padding: 10px;
+	background-color: #ffffff;
+	padding-right: 40px;
+}
+
+.navbar-menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar-link {
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'Inter';
+	font-style: normal;
+	transition: transform 0.3s ease-in-out;
+	display: inline-block;
+}
+
+.navbar-link:hover{
+	transform: scale(1.1);
+	color: #a95534;
+}
+
+.navbar-item:first-child {
+	width: fit-content;
+	width: 20%;
+}
+
+.navbar-item:last-child {
+	margin-left: auto;
+	background-color: #e3cb7d;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	padding: 5px 30px;
+}
+
+.navbar-cart-link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'Inter';
+	font-style: normal;
+	gap: 10px;
+}
+
+.navbar-cart-link img {
+	width: 40%;
+}
+
+.navbar-logo {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+#register-link {
+	color: #a95534;
+}
+
+.header {
+	background-color: #a95534;
+}
+
+.header marquee {
+	color: white;
+	font-family: 'Merienda';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: -0.02em;
+}
+
+.background-image {
+	position: relative;
+	display: inline-block;
+}
+
+.horizontal-page {
+	display: flex;
+	height: 100vh;
+}
+
+.horizontal-child {
+	flex: 1;
+}
+
+.vertical-page {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.vertical-child {
+	flex: 1;
+}
+
+
+footer {
+	background-color: #a95534;
+	padding: 1vh 3vw;
+	color: white;
+	height: 55vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+  }
+  
+  .upper-part{
+	display: flex;
+	flex: 9;
+  }
+  
+  .left{
+	flex:1
+  }
+  
+  .right{
+	flex: 1;
+  }
+  
+  .lower-part{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .halal-logo {
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+  }
+  span {
+	font-weight: 600;
+  }
+  .left {
+	float: left;
+	width: 50%;
+  }
+  .loc {
+	text-decoration: underline;
+	font-size: 1.5rem;
+  }
+  .icon {
+	align-items: center;
+	margin: 5px;
+  }
+  .contact {
+	margin: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }

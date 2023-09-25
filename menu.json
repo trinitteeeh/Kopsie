@@ -1,0 +1,101 @@
+[
+    {
+        "id": "PR001",
+        "title": "Cookie Glass Kopsie",
+        "description": "The sweetest mixture of cookie and coffee",
+        "image": "../assets/products/product-1.jpg",
+        "price": 25000,
+        "storage": "last up to 4 hours in normal room temprature",
+        "type": "drink"
+    },
+    {
+        "id": "PR002",
+        "title": "Marshmellow Kopsie",
+        "description": "The sweetest drinks for the sweetest person",
+        "image": "../assets/products/product-8.png",
+        "price": 30000,
+        "storage": "Keep it warm or cold, it's up to you",
+        "type": "drink"
+    },
+    {
+        "id": "PR003",
+        "title": "Cinnamon Prestige",
+        "description": "Spices for the better sould",
+        "image": "../assets/products/product-3.avif",
+        "price": 40000,
+        "storage": "last up to 4 hours in normal room temprature",
+        "type": "drink"
+    },
+    {
+        "id": "PR004",
+        "title": "Ice Cube Kopsie",
+        "description": "The sweetest mixture of cookie and coffee",
+        "image": "../assets/products/product-4.avif",
+        "price": 25000,
+        "storage": "last up to 4 hours in normal room temprature",
+        "type": "drink"
+    },
+    {
+        "id": "PR005",
+        "title": "Cacao Kopsie",
+        "description": "The sweetest mixture of cookie and coffee",
+        "image": "../assets/products/product-5.avif",
+        "price": 25000,
+        "storage": "last up to 4 hours in normal room temprature",
+        "type": "drink"
+    },
+    {
+        "id": "PR006",
+        "title": "Cookie Glass Kopsie",
+        "description": "The sweetest mixture of cookie and coffee",
+        "image": "../assets/products/product-7.png",
+        "price": 25000,
+        "storage": "last up to 4 hours in normal room temprature",
+        "type": "drink"
+    },
+    {
+        "id": "PR007",
+        "title": "Lotus Mellow Bombs",
+        "description": "The sweetest mixture of cookie and coffee",
+        "image": "../assets/products/product-6.avif",
+        "price": 25000,
+        "storage": "last up to 4 hours in normal room temprature",
+        "type": "cookie"
+    },
+    {
+        "id": "PR008",
+        "title": "CheeseNut Bombs",
+        "description": "The sweetest mixture of cookie and coffee",
+        "image": "../assets/products/product-2.avif",
+        "price": 25000,
+        "storage": "last up to 4 hours in normal room temprature",
+        "type": "cookie"
+    },
+    {
+        "id": "PR009",
+        "title": "Chocochips Bombs",
+        "description": "Cookies with chocolate couldn't be better",
+        "image": "../assets/products/product-12.avif",
+        "price": 30000,
+        "storage": "You can refrigerate it up to 1 week",
+        "type": "cookie"
+    },
+    {
+        "id": "PR010",
+        "title": "Molten Choco Bombs",
+        "description": "Melting Chocolate with the hint of bitterness to balance out the sweetness",
+        "image": "../assets/products/product-10.avif",
+        "price": 27000,
+        "storage": "You can refrigerate it up to 1 week",
+        "type": "cookie"
+    },
+    {
+        "id": "PR011",
+        "title": "Butterchotch Bombs",
+        "description": "Brown butter with rum mixture that intoxicate the soul",
+        "image": "../assets/products/product-11.avif",
+        "price": 32000,
+        "storage": "You can refrigerate it up to 1 week",
+        "type": "cookie"
+    }
+]

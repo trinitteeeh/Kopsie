@@ -1,0 +1,98 @@
+@import "style.css";
+
+.first-content {
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.content-img{
+    flex: 1;
+    min-height: 100%;
+}
+
+.registration{
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.content-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resgistration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b4731e;
+    gap: 25px;
+   /* justify-content: center; */
+    height: 300px;
+}
+
+.Gender label{
+    font-size: 1.8rem;
+}
+
+.form-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4vh;
+}
+
+#gender{
+    padding: 2vh 2vw;
+    font-size: 1rem;
+    color: #B8860BE3;
+    width: max-content;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 2px -2px rgba(169, 85, 52, 1);
+    cursor: pointer;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #B8860BE3;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 2vh 2vw;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #B8860BE3;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 2px -2px rgba(169, 85, 52, 1);
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #B8860BE3;
+    text-align: start;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.button-form{
+    background-color: burlywood;
+    color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    outline: none;
+    border-radius: 40px;
+    height: 50px;
+    width: 70%;
+}
+
+
+.button-account{
+background-color:#b4731e;
+ color:antiquewhite;
+ border-radius: 60px;
+ height: 50px;
+ width: 200px;
+ 
+}
